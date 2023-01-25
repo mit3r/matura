@@ -1,7 +1,7 @@
 if __name__ == '__main__':
 
     galerie = []
-    with open('galerie.txt', 'r') as file:
+    with open('galerie_przyklad.txt', 'r') as file:
 
         for line in file:
             kod, miasto, *pary = line.strip().split(' ')
@@ -25,33 +25,19 @@ if __name__ == '__main__':
     print(kraje)
 
     print('Zad. 4.2')
-    print('a)')
-
-    maks_space = 0
-    maks_space_name = ''
-
-    min_space = 1000000
-    min_space_name = ''
-
+    spaces = []
     for kod, miasto, lokale in galerie:
-
         space = sum([w*h for w, h in lokale])
+        spaces += [[miasto, space]]
 
-        print(miasto, space, len(lokale))
-
-        if space > maks_space:
-            maks_space = space
-            maks_space_name = miasto
-        
-        if space < min_space:
-            min_space = space
-            min_space_name = miasto
+    print('a)')
+    for space in spaces:
+        print(*space)
 
     print('b)')
-
-    print(maks_space_name, maks_space)
-    print(min_space_name, min_space)
-
+    print(*max(spaces, key=lambda x: x[1]))
+    print(*min(spaces, key=lambda x: x[1]))
+    
     print('Zad 4.3')
 
     miasta_rozne = []
@@ -60,21 +46,5 @@ if __name__ == '__main__':
         rozne = {w*h for w, h in lokale}
         miasta_rozne += [[miasto, len(rozne)]]
     
-    min_roz = 100000
-    min_roz_name = ''
-
-    maks_roz = 0
-    maks_roz_name = ''
-
-    for miasto, ilosc in miasta_rozne:
-
-        if ilosc < min_roz:
-            min_roz = ilosc
-            min_roz_name = miasto
-
-        if ilosc > maks_roz:
-            maks_roz = ilosc
-            maks_roz_name = miasto
-    
-    print(maks_roz_name, maks_roz)
-    print(min_roz_name, min_roz)
+    print(*max(miasta_rozne, key=lambda x: x[1]))
+    print(*min(miasta_rozne, key=lambda x: x[1]))
