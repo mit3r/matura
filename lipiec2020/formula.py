@@ -1,11 +1,9 @@
 
 def suma_cyfr(n: str):
-
     return sum([int(i) for i in n])
 
 def isPal(n: str):
     return n == n[-1::-1]
-
 
 if __name__ == '__main__':
     path = 'identyfikator.txt'
@@ -28,9 +26,7 @@ if __name__ == '__main__':
     szyfr = {chr(i).upper(): i-97+10 for i in range(ord('a'), ord('z') + 1)}
 
     print('Zad 4.3')
-
     for seria, numer in ids:
-        
         kontrol = int(numer[0])
 
         a = [int(szyfr[znak]) for znak in seria]
