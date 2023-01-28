@@ -63,9 +63,4 @@ if __name__ == '__main__':
         
         print(big_c*big_l, big_l)
 
-    print(
-        'Zad 4.3',
-        *min(
-            [[l, s] for l, s in pary if l == len(s)]
-        )
-    )
+    print( 'Zad 4.3', *min( [[l, s] for l, s in pary if l == len(s)] ) )
