@@ -1,0 +1,4 @@
+
+Liczba próbek do ponownej analizy wynosi: 1
+Liczba próbek nie spe³niaj¹cych normy wynosi:  2
+Liczba próbek spe³niaj¹cych normy wynosi: 7

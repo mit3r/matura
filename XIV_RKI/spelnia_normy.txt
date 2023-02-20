@@ -1,0 +1,7 @@
+2	03.01.2022	08:30	/ddt-0/al-5/bzt-750/bo-5/cynk-2/s-500/olow-0.5/zalo-10/chr-0.1/cyna-2/ty-2/sur-15/fo-10/
+3	22.03.2022	09:15	/cynk-2/tal-1/chr-0.1/se-0.5/ty-2/zo-10/zao-500/an-0.25/
+6	23.03.2022	08:30	/al-5/be-1/s-500/ar-0.25/ka-0.2/rt-0.05/ph-9.5/
+7	14.01.2022	09:15	/mo-1/rt-0.05/ph-6.5/ar-0.25/bzt-750/ddt-0/pcb-0/fo-10/bo-5/ch-500/
+8	22.03.2022	08:00	/ddt-0/aaz-10/an-0.25/al-5/aam-100/rt-0.05/ni-0.5/bo-5/ka-0.2/
+9	20.02.2022	09:00	/cynk-2/ph-6.5/be-1/al-5/ka-0.2/ag-0.5/fo-10/adei-0/ch-500/chr-0.1/bo-5/pcp-0/mo-1/bzt-750/cyna-2/zao-500/pcb-0/ddt-0/rt-0.05/
+10	23.03.2022	08:00	/pcb-0/se-0.5/an-0.25/aam-100/be-1/ar-0.25/mo-1/ba-2.5/ty-2/chzt-1500/zao-500/ni-0.5/olow-0.5/ddt-0/ph-9.5/zalo-10/sur-15/pcp-0/al-5/
