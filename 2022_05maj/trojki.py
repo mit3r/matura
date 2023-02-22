@@ -5,7 +5,7 @@ if __name__ == "__main__":
 
     liczby = [line.strip() for line in open('liczby.txt', 'r')]
 
-    takie_same = list(filter(lambda x: x[0] == x[-1], liczby))
+    takie_same = [n for n in liczby if n[0] == n[-1]]
 
     # same = [x for x in liczby if x[0] == x[-1]]
     # print(same)
