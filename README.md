@@ -1,4 +1,4 @@
-# matura
+# Zadania Maturalne (Python)
 
 Odpowiedzi do zadań z programowania. Arkusz + programowanie. 
 Zadania z poprzednich matur wykonane w całości przy komputerze (Formuła 2023)
