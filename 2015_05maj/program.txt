@@ -1,0 +1,22 @@
+
+
+
+Telewizja / stacja Film i godziny jego emisji Czas trwania emisji filmu
+
+TV1
+film 1: od 9:00 do 12:00 3 godziny
+film 2: od 15:00 do 17:00 2 godziny
+
+TV2 film 3: od 11:00 do 16:00 5 godzin
+
+TV3 film 4: od 12:00 do 14:00 2 godziny
+
+TV4 film 5: od 11:30 do 12:30 1 godzina 
+
+T
+P
+
+
+B: 5, 2
+C: 1, 4, 2
+D: 1 4 2

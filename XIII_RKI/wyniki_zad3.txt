@@ -1,0 +1,2 @@
+Liczba znalezionych sekwencji DNA wynosi 3.
+Liczba znalezionych sekwencji RNA wynosi 3.
